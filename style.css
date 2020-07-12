@@ -178,6 +178,10 @@ hr.sep-2 {
     margin-bottom: 30px;
 }
 
+#section-contact li,
+#section-contact i {
+    padding-top: 15px;
+}
 
 
 
@@ -194,9 +198,13 @@ hr.sep-2 {
     .sep-2 {
         display: none;
     }
+
+    #section-contact li {
+        padding-top: 0px;
+    }
 }
 
-@media only screen and (max-width : 750px) {
+@media only screen and (max-width : 881px) {
     #return-to-top {
         display: none !important;
     }
