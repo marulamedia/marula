@@ -114,7 +114,6 @@ footer h5 {
 } */
 
 footer a:hover {
-    color: rgb(91, 142, 10);
     text-decoration: none;
 }
 
@@ -183,9 +182,26 @@ hr.sep-2 {
     padding-top: 15px;
 }
 
+/* footer links hover highlights */
+.whatsapp:hover {
+    color: #25D366;
+}
 
+.mail:hover {
+    color: #C71610;
+}
 
+.facebook:hover {
+    color: #4267B2;
+}
 
+.twitter:hover {
+    color: #1DA1F2;
+}
+
+.youtube:hover {
+    color: #FF0000
+}
 
 @media only screen and (max-width : 768px) {
     .navbar-nav {
