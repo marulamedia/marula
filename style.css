@@ -212,8 +212,11 @@ ul {
 
 
 @media only screen and (max-width : 768px) {
-    .navbar-nav {
-        align-items: center
+
+    .navbar-nav,
+    h3 {
+        align-items: center;
+        text-align: center
     }
 }
 
