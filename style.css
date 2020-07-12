@@ -17,7 +17,7 @@ hr {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: white;
-    min-height: 83vh;
+    min-height: 100vh;
 }
 
 /* 33, 37, 41, */
@@ -217,6 +217,11 @@ ul {
     h3 {
         align-items: center;
         text-align: center
+    }
+
+    .jumbotron {
+        background-image: url('./images/logo-med.jpg');
+        min-height: 75vh;
     }
 }
 
